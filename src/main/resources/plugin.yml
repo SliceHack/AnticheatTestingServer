@@ -1,0 +1,11 @@
+name: AntiCheatServer
+version: '${project.version}'
+main: com.sliceclient.server.AntiCheatServer
+api-version: 1.19
+depend: [ ProtocolLib ]
+commands:
+  anticheat:
+    usage: /<command>
+    description: Opens the AntiCheat GUI
+    aliases:
+      - ac
